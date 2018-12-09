@@ -1,5 +1,5 @@
 {
-  "name": "winston",
+  "name": "winston-lg",
   "description": "A logger for just about everything.",
   "version": "3.1.0",
   "author": "Charlie Robbins <charlie.robbins@gmail.com>",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/winstonjs/winston.git"
+    "url": "git+https://github.com/winstonjs/winston.git"
   },
   "keywords": [
     "winston",
@@ -63,11 +63,21 @@
     "pretest": "npm run lint",
     "test": "nyc --reporter=text --reporter lcov npm run test:mocha",
     "test:mocha": "mocha test/*.test.js test/**/*.test.js --exit",
-    "build": "./node_modules/.bin/rimraf dist && babel lib -d dist",
+    "build": "rimraf dist && babel lib -d dist",
     "prepublishOnly": "npm run build"
   },
   "engines": {
     "node": ">= 6.4.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winstonjs/winston/issues"
+  },
+  "homepage": "https://github.com/winstonjs/winston#readme",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  }
 }
