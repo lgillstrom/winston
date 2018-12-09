@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/winstonjs/winston.git"
+    "url": "git+https://github.com/lgillstrom/winston.git"
   },
   "keywords": [
     "winston",
@@ -71,9 +71,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/winstonjs/winston/issues"
+    "url": "https://github.com/lgillstrom/winston/issues"
   },
-  "homepage": "https://github.com/winstonjs/winston#readme",
+  "homepage": "https://github.com/lgillstrom/winston#readme",
   "directories": {
     "doc": "docs",
     "example": "examples",
